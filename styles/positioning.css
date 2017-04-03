@@ -1,0 +1,59 @@
+body {
+  padding: 14rem 0 0;
+}
+
+header {
+  padding: 1rem;
+  position: fixed;
+  top: 0rem;
+  width: 100%;
+}
+
+nav {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: relative;
+  top: 2.8rem;
+  right: 3rem;
+  padding: .4rem 3rem;
+}
+
+nav a {
+  margin: 1rem;
+}
+
+address {
+  padding: 1rem;
+}
+
+footer small {
+  padding: .2rem;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.book-now {
+  position: relative;
+  right: 2rem;
+  float: right;
+}
+
+.site-name {
+  position: relative;
+  left: 2.5rem;
+  top: 4.5rem;
+}
+
+.site-slogan {
+  position: relative;
+  left: 2rem;
+  top: 3rem;
+}
+
+.main-flex-box {
+  display: flex;
+  flex: 1 100%;
+  margin: 1rem auto;
+}
