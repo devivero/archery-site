@@ -7,8 +7,16 @@ html {
   font-size: 16px;
 }
 
+body {
+  padding: 1rem 0 0;
+}
+
 header {
-  background: white;
+  padding: 1rem;
+  position: relative;
+  top: -1rem;
+  width: 100%;
+  background-color: white;
 }
 
 header h1{
@@ -22,7 +30,7 @@ header p {
 }
 
 nav {
-  background: #C70039;
+  background: white;
 }
 
 img {
@@ -31,63 +39,93 @@ img {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 1rem 0;
   padding: 0.5rem;
 }
 
+.navigation-link {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25rem;
+  font-family: fantasy;
+  float: right;
+}
+
 footer {
-  background: black;
-  color: white;
+  /*background: black;*/
+  color: black;
   font-size: .75rem;
   text-align: center;
+  font-weight: bold;
 }
 
 ul {
   list-style-type: none;
 }
 
-aside h3 {
-  text-align: center;
+address {
+  padding: 1rem;
 }
 
 small {
     text-align: center;
 }
+section {
+  padding: 1rem;
+}
 
-.side-info {
+.site-name {
+  position: relative;
+  left: 2.5rem;
+  top: 4.5rem;
+}
+
+.site-slogan {
+  position: relative;
+  left: 2rem;
+  top: 3rem;
+}
+
+.image1 {
   border: 1px solid #333;
-  margin: 0 auto;
+  margin: 10 auto;
   position: relative;
   width: 17rem;
+  transform: rotate(-14deg);
 }
 
-.site-story {
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
+.image2 {
+  border: 1px solid #333;
+  margin: 2 auto;
+  position: relative;
+  width: 17rem;
+  transform: rotate(7deg);
 }
 
-.testimonials {
-  font-weight: normal;
-  font-style: italic;
-  font-size: 1rem;
-}
-
-.cat-name {
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1rem;
-  text-align: center;
+.image3 {
+  border: 1px solid #333;
+  margin: 2 auto;
+  position: relative;
+  width: 17rem;
+  transform: rotate(-10deg);
 }
 
 .logo {
   max-height:120px;
   width: auto;
   height: auto;
-  position: relative;
+  /*position: relative;*/
   right: 6rem;
-  float: right;
+  /*float: right;*/
+}
+
+.content {
+  background: white;
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: center;
+  text-align:justify;;
 }
 
 .about-us {
@@ -95,10 +133,4 @@ small {
   font-style: normal;
   font-size: 1.25rem;
   font-family: 'Griffy', cursive;
-}
-
-.rates-info {
-  font-weight: bold;
-  font-style: oblique;
-  font-size: 1.25rem;
 }
